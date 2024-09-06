@@ -1,0 +1,14 @@
+.nav-sidebar .nav-link >.right, .nav-sidebar .nav-link > p >.right{
+    left:1rem !important;
+    right:auto;
+     }
+     .text-right {
+        text-align: left !important;
+    }
+    .ml-auto, .mx-auto {
+        margin-right: auto !important;
+        margin-left: 0 !important;
+    }
+    .dropdown-menu{
+        text-align: right !important;
+    }

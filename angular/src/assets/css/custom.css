@@ -1,0 +1,263 @@
+:root {
+    --btn-color: #fff;
+    --btn-background-color: #209e91;
+    --btn-border-color: #2d726b;
+    --btn-default-hover-color: #209e91;
+    --btn-default-hover-background-color: #209e9182;
+    --a-color: #209e91;
+}
+
+.wrapper {
+    text-align: -webkit-auto;
+}
+
+.content-wrapper , .main-header , .main-footer{
+    margin-left: unset !important;
+    margin-inline-start: 250px !important; 
+}
+
+.text-right {
+    text-align: end !important;
+}
+
+.text-sm-left {
+    text-align: start !important;
+}
+
+.float-right {
+    float: inline-end !important;
+}
+
+.ml-auto{
+    margin-left: unset !important;
+    margin-inline-start: auto !important;
+}
+
+.navbar-nav{
+    padding-inline-start: 0px;
+}
+
+.brand-link .brand-image {
+    float: inline-start !important;
+}
+
+.nav-sidebar {
+    padding-inline-start: 0px;
+}
+
+.float-sm-right {
+    float: inline-end !important;
+}
+
+.sidebar-mini.sidebar-collapse .content-wrapper,
+ .sidebar-mini.sidebar-collapse .main-footer,
+  .sidebar-mini.sidebar-collapse .main-header{
+    margin-left: unset !important;
+    margin-inline-start: 4.6rem !important;
+}
+
+.media-tr:hover {
+    cursor: pointer;
+}
+
+
+.dropzone {
+    height: 800px;
+    padding: 20px;
+    overflow: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: dotted 1px #aaa;
+}
+.widgets{
+    background-color: #E6E9EC;
+}
+widget{
+    width:100%;
+    margin:5px;
+}
+text-widget{
+    width:100%;
+    margin:5px;
+}
+.widget-inner{
+    border:2px solid #007bff;
+    border-radius: 5px;
+    position: relative;
+    margin:10px;
+}
+.widget-panel{
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    display: flex;
+}
+.btn-panel{
+padding-top: 1px !important;
+padding-bottom: 1px !important;
+padding-right: 4px !important;
+padding-left: 4px !important;
+}
+.icon-panel{
+ font-size: 10px;
+    }
+.container-widgets{
+    padding: 2px;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(auto-fill, minmax(Min(135px, calc(50% - 5px)), 1fr));
+}
+.accordion-widget{
+    width:100%;
+}
+.widget-element{
+    text-align: center;
+}
+.widget-element-draggable {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: move;
+    position: relative;
+}
+.widget-element-draggable:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    color:red;
+}
+.widget-icon
+{
+    font-size: 28px;
+    padding-top: 15px;
+}
+.widget-title
+{
+    display: table;
+    width: 100%;
+}
+.header-input{
+    border:0;
+    outline:0;
+    width:100%;
+}
+.header-input:focus{
+    outline:none!important;
+}
+.control-wrapper{
+    margin:10px;
+}
+.control-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.control{
+    flex-basis: 100%;
+    flex: 1;
+}
+.control-select{
+    flex-basis: 100%;
+    flex: 2;
+}
+.title{
+    font-size: 11px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+}
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.uploadlink:hover{
+color:rgb(25, 138, 62);
+cursor: pointer;
+}
+/* .inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(25, 138, 62);
+} */
+.img-container{
+    overflow: hidden;
+}
+.html-container{
+    min-height: 100px;
+}
+
+.img-gallery-edit{
+    position:relative;
+    max-width: 110px;
+    /* display: inline; */
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    padding:2px;
+    margin:2px;
+}
+.cadre{
+    box-shadow: 0 2px 6px red;
+}
+
+.btn-close{
+    position: absolute;right:0px;
+}
+.dd-list{
+background-color: white;
+}
+.dd-item{
+    background-color: #FAFAFA;
+   border:1px dashed #CCCCCC;
+   margin:5px;
+   padding:5px;
+}
+.dd-row{
+    display: flex;
+    justify-content: space-between;
+}
+.dd-childs{
+    margin:20px;
+}
+.gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ .gjs-block {
+    width: auto;
+    height: auto;
+    min-height: auto;
+ }
+ .logo-image{
+    border-radius: 15px;
+ }
+ .img-gallery{
+    margin:2px;
+ }
+ .card-header-container{
+    display: flex;
+    justify-content: space-between;
+ }
+.img-gallery-container{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
